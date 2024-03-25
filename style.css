@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #816753;
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 42px;
+}
+
+header nav {
+  margin-top: 20px;
+  font-size: 32px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  padding: 10px;
+}
+nav ul li:hover {
+  background-color: rgba(139, 69, 19, 0.425);
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.main {
+  text-align: center;
+  background-image: url(https://miro.medium.com/v2/resize:fit:1400/0*nh4IFT2ZgybLEfyi);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  height: calc(100vh - 343px);
+  position: relative;
+  min-height: 200px;
+}
+
+.main h1 {
+  font-size: 82px;
+}
+
+.main p {
+  font-size: 48px;
+  margin-top: 30px;
+}
+
+.contactUs {
+  text-align: center;
+  background-color: #fa7d1e;
+  color: white;
+  padding: 20px;
+}
+
+.contactUs h1 {
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+
+.contactUs p {
+  margin: 5px;
+}
+
+.menu {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.menu h2 {
+  font-size: 36px;
+  margin-bottom: 32px;
+  margin-top: 30px;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li{
+    font-size: 20px;
+    margin: 10px;
+}
